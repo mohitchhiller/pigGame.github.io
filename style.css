@@ -131,7 +131,7 @@ body {
   .player1,
   .player2 {
     height: 30vh;
-    width: 80vw;
+    width: 50vw;
     padding: 0 10px;
   }
   .player-text,
