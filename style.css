@@ -132,6 +132,7 @@ body {
   .player2 {
     height: 30vh;
     width: 15vw;
+    padding: 0 10px;
   }
   .player-text,
   .total-score1,
