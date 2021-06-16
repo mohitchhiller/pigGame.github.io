@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .suar {
   background: -webkit-linear-gradient(#eee, rgb(204, 0, 255));
@@ -145,10 +145,14 @@ body {
   }
   .rollDice {
     left: 25%;
-    top: 80%;
+    top: 85%;
   }
   .hold {
     left: 80%;
-    top: 80%;
+    top: 85%;
+  }
+  body {
+    background-image: none;
+    background-color: #bf2e34;
   }
 } ;
