@@ -127,7 +127,7 @@ body {
   background-color: rgb(133, 0, 66);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .player1,
   .player2 {
     height: 30vh;
