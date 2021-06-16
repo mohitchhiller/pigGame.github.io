@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-weight: 100;
+  user-select: none;
+}
+body {
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+}
+.suar {
+  background: -webkit-linear-gradient(#eee, rgb(204, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 2rem;
+  font-size: 3rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 8%;
+  left: 50%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 100px rgb(44, 44, 44);
+}
+
+.player1,
+.player2 {
+  text-align: center;
+  padding: 4rem;
+  height: 55vh;
+  width: 30vw;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr 5fr 1fr;
+  opacity: 1;
+}
+.player-text {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+.total-score1,
+.total-score2 {
+  color: rgb(226, 43, 171);
+  font-size: 4rem;
+  padding-top: 1rem;
+}
+
+.current-score1,
+.current-score2 {
+  font-size: 2.5rem;
+}
+.player1 {
+  background-color: plum;
+  border-radius: 10px 0 0 10px;
+}
+.player2 {
+  background-color: rgba(221, 160, 221);
+  border-radius: 0 10px 10px 0;
+}
+.player-active {
+  opacity: 0.5;
+}
+
+.player-win {
+  background-image: linear-gradient(45deg, blue, aqua);
+}
+.box1,
+.box2 {
+  background-color: rgba(228, 0, 106, 0.931);
+  border-radius: 10px;
+  padding: 1rem;
+  color: aliceblue;
+}
+
+.newGame,
+.hold,
+.rollDice,
+.dice {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.newGame {
+  top: 22%;
+  left: 50%;
+}
+.hold {
+  top: 74%;
+  left: 50%;
+}
+.rollDice {
+  top: 65%;
+  left: 50%;
+}
+.dice {
+  height: 5rem;
+  top: 45%;
+  left: 50%;
+  box-shadow: 0 0 20px rgb(255, 0, 242);
+}
+.hidden {
+  display: none;
+}
+.btn:hover {
+  background-color: rgb(255, 0, 128);
+  border: 2px solid white;
+  box-shadow: 0 0 8px white;
+  color: white;
+  transition: 0.2s;
+}
+.btn:active {
+  background-color: rgb(133, 0, 66);
+}
