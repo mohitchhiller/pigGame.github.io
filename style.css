@@ -20,7 +20,7 @@ body {
   text-align: center;
   font-weight: 700;
   letter-spacing: 2rem;
-  font-size: 3rem;
+  font-size: 5vh;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 8%;
@@ -96,15 +96,15 @@ body {
   padding: 10px 20px;
 }
 .newGame {
-  top: 22%;
+  top: 20vh;
   left: 50%;
 }
 .hold {
-  top: 74%;
+  top: 74vh;
   left: 50%;
 }
 .rollDice {
-  top: 65%;
+  top: 65vh;
   left: 50%;
 }
 .dice {
@@ -126,3 +126,29 @@ body {
 .btn:active {
   background-color: rgb(133, 0, 66);
 }
+
+@media screen and (max-width: 400px) {
+  .player1,
+  .player2 {
+    height: 30vh;
+  }
+  .player-text,
+  .total-score1,
+  .total-score2,
+  .current-score1,
+  .current-score2 {
+    font-size: 2rem;
+  }
+  .box1,
+  .box2 {
+    height: 3rem;
+  }
+  .rollDice {
+    left: 25%;
+    top: 80%;
+  }
+  .hold {
+    left: 80%;
+    top: 80%;
+  }
+} ;
