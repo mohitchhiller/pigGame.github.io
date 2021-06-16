@@ -131,7 +131,7 @@ body {
   .player1,
   .player2 {
     height: 30vh;
-    width: 40vw;
+    width: 35vw;
     padding: 0 10px;
   }
   .player-text,
@@ -152,6 +152,9 @@ body {
   .hold {
     left: 80%;
     top: 85%;
+  }
+  .dice {
+    top: 50%;
   }
   body {
     background-image: none;
