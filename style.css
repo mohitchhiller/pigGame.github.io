@@ -130,9 +130,9 @@ body {
 @media screen and (max-width: 450px) {
   .player1,
   .player2 {
-    height: 30vh;
-    width: 35vw;
-    padding: 0 10px;
+    height: 32vh;
+    width: 37vw;
+    padding: 10px;
   }
   .player-text,
   .total-score1,
